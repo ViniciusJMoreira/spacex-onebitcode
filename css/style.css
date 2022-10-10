@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
+* {
+  color: #fff;
+}
+
+#header {
+  font-size: 12px;
+  font-weight: bold;
+}
+#header .logo-onebitcode {
+  width: 240px;
+  margin-left: -10px;
+  margin-right: 40px;
+}
+#header #link-hover {
+  transition: 500ms linear;
+}
+#header #link-hover:hover {
+  color: #b9b9b9;
+}
+
+.arrow-down {
+  display: inline-block;
+  width: 90px;
+  margin-top: 5px;
+}
+
+#button {
+  padding: 15px 35px;
+}
+
+section {
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000;
+  background-position: center;
+}
+
+#footer {
+  background-color: #000;
+  height: 15vh;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#footer a {
+  text-decoration: none;
+  color: #fff;
+  transition: 500ms linear;
+}
+#footer a:hover {
+  color: #b9b9b9;
+}
+#footer .copy {
+  color: #FF0043;
+}
+
+@media (max-width: 405px) {
+  #header .logo-onebitcode {
+    width: 180px;
+    margin-top: 15px;
+  }
+  #footer {
+    font-size: 10px;
+  }
+}
+@media (max-width: 350px) {
+  #header .logo-onebitcode {
+    width: 150px;
+    margin-top: 15px;
+  }
+}
+.section-1 {
+  background-image: url("../image/home/01.jpg");
+}
+
+.section-2 {
+  background-image: url("../image/home/02.jpg");
+}
+
+.section-3 {
+  background-image: url("../image/home/03.gif");
+}
+
+.section-4 {
+  background-image: url("../image/home/04.jpg");
+}
+
+.padding-title {
+  padding-top: 200px;
+}
+
+.shortTitle {
+  width: 550px;
+}
+
+.mediumTitle {
+  width: 650px;
+  margin-bottom: -25px;
+}
+
+@media (max-width: 750px) {
+  .padding-title {
+    padding-top: 150px;
+  }
+  .shortTitle, .mediumTitle {
+    width: auto;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

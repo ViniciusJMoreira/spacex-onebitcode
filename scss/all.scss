@@ -1,0 +1,86 @@
+* {
+  color: #fff;
+}
+
+#header {
+  font-size: 12px;
+  font-weight: bold;
+
+  .logo-onebitcode {
+    width: 240px;
+    margin-left: -10px;
+    margin-right: 40px;
+  }
+
+  #link-hover {
+  transition: 500ms linear;
+    &:hover {
+      color: $link-hover;
+    }
+  }
+}
+
+.arrow-down {
+  display: inline-block;
+  width: 90px;
+  margin-top: 5px;
+}
+
+#button {
+  padding: $padding-button;
+}
+
+section {
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000;
+  background-position: center;
+}
+
+#footer {
+  background-color: #000;
+  height: 15vh;
+  font-size: 12px;
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  a {
+    text-decoration: none;
+    color: #fff;
+    transition: 500ms linear;
+    &:hover {
+      color: $link-hover;
+    }
+  }
+
+  .copy {
+    color: #FF0043;
+  }
+}
+
+// Media Query
+
+@media (max-width: 405px) {
+  #header {
+    .logo-onebitcode {
+      width: 180px;
+      margin-top: 15px;
+    }
+  }
+  #footer {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 350px) {
+  #header {
+    .logo-onebitcode {
+      width: 150px;
+      margin-top: 15px;
+    }
+  }
+}

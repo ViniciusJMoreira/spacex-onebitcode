@@ -1,0 +1,31 @@
+.section-1 {
+    background-image: url("../image/home/01.jpg");
+}
+.section-2 {
+    background-image: url("../image/home/02.jpg");
+}
+.section-3 {
+    background-image: url("../image/home/03.gif");
+}
+.section-4 {
+    background-image: url("../image/home/04.jpg");
+}
+.padding-title {
+  padding-top: 200px;
+}
+.shortTitle {
+  width: 550px;
+}
+.mediumTitle {
+  width: 650px;
+  margin-bottom: -25px;
+}
+
+@media (max-width: 750px) {
+  .padding-title {
+    padding-top: 150px;
+  }
+  .shortTitle, .mediumTitle {
+    width: auto;
+  }
+}
