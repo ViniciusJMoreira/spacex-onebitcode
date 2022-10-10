@@ -21,7 +21,6 @@
 }
 
 .arrow-down {
-  display: inline-block;
   width: 90px;
   margin-top: 5px;
 }
@@ -47,6 +46,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 
   a {
     text-decoration: none;
@@ -63,16 +63,23 @@ section {
 }
 
 // Media Query
+@media (max-width: 765px) {
+  #header {
+    .logo-onebitcode {
+      width: 200px;
+    }
+  }
+}
 
 @media (max-width: 405px) {
   #header {
     .logo-onebitcode {
       width: 180px;
-      margin-top: 15px;
     }
   }
   #footer {
     font-size: 10px;
+    padding: 10px;
   }
 }
 
@@ -80,7 +87,7 @@ section {
   #header {
     .logo-onebitcode {
       width: 150px;
-      margin-top: 15px;
+      margin-right: 0px;
     }
   }
 }

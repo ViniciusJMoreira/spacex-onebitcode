@@ -15,17 +15,19 @@
 }
 .shortTitle {
   width: 550px;
+  margin-bottom: -20px;
 }
 .mediumTitle {
   width: 650px;
-  margin-bottom: -25px;
+  margin-bottom: -20px;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 765px) {
   .padding-title {
-    padding-top: 150px;
+    padding-top: 170px;
   }
   .shortTitle, .mediumTitle {
     width: auto;
+    font-size: 30px;
   }
 }
