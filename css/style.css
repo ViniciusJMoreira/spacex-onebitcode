@@ -110,6 +110,10 @@ section {
 @media (max-width: 765px) {
   .shortTitle, .mediumTitle {
     width: auto;
+  }
+}
+@media (max-width: 765px) and (max-width: 425px) {
+  .shortTitle, .mediumTitle {
     font-size: 30px;
   }
 }

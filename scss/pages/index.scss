@@ -23,6 +23,10 @@
 @media (max-width: 765px) {
   .shortTitle, .mediumTitle {
     width: auto;
-    font-size: 30px;
+  }
+  @media (max-width: 425px) {
+    .shortTitle, .mediumTitle {
+      font-size: 30px;
+    }
   }
 }
