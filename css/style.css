@@ -112,10 +112,5 @@ section {
     width: auto;
   }
 }
-@media (max-width: 765px) and (max-width: 425px) {
-  .shortTitle, .mediumTitle {
-    font-size: 30px;
-  }
-}
 
 /*# sourceMappingURL=style.css.map */
