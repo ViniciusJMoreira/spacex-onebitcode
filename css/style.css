@@ -20,13 +20,8 @@
   color: #b9b9b9;
 }
 
-#arrow-down {
-  align-self: end;
-}
-#arrow-down .arrow-down {
+.arrow-down {
   width: 90px;
-  margin-top: 5px;
-  align-self: end;
 }
 
 #button {
