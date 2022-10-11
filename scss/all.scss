@@ -21,10 +21,14 @@
   }
 }
 
-.arrow-down {
-  width: 90px;
-  margin-top: 5px;
-  align-self: flex-end;
+#arrow-down {
+  align-self: end;
+
+  .arrow-down {
+    width: 90px;
+    margin-top: 5px;
+    align-self: end;
+  }
 }
 
 #button {
