@@ -10,9 +10,6 @@
 .section-4 {
     background-image: url("../image/home/04.jpg");
 }
-.padding-title {
-  padding-top: 200px;
-}
 .shortTitle {
   width: 550px;
   margin-bottom: -20px;
@@ -23,9 +20,6 @@
 }
 
 @media (max-width: 765px) {
-  .padding-title {
-    padding-top: 170px;
-  }
   .shortTitle, .mediumTitle {
     width: auto;
     font-size: 30px;
