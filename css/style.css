@@ -119,6 +119,16 @@ section {
 .section-falcon9-1 {
   background-image: url("../image/falcon9/01.jpg");
 }
+.section-falcon9-1 .title-falcon9 {
+  font-size: 6rem;
+}
+
+.parameters .parameters-title {
+  font-size: 50px;
+}
+.parameters .parameters-subtitle {
+  font-size: 18px;
+}
 
 .section-falcon9-2 {
   background-image: url("../image/falcon9/02.jpg");
@@ -155,8 +165,9 @@ section {
   transform: translate(-50%, -50%);
 }
 
-.width-carousel-overview {
+.width-default {
   width: 50%;
+  font-size: 20px;
 }
 
 .section-falcon9-4 {
@@ -169,7 +180,7 @@ section {
 }
 
 @media (max-width: 1024px) {
-  .width-carousel-overview {
+  .width-default {
     width: 100%;
   }
 }
