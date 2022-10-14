@@ -1,27 +1,25 @@
-.section-1 {
+.section-home-1 {
     background-image: url("../image/home/01.jpg");
 }
-.section-2 {
+.section-home-2 {
     background-image: url("../image/home/02.jpg");
 }
-.section-3 {
+.section-home-3 {
     background-image: url("../image/home/03.gif");
 }
-.section-4 {
+.section-home-4 {
     background-image: url("../image/home/04.jpg");
 }
-.shortTitle {
+.title-home {
   width: 550px;
-  margin-bottom: -20px;
 }
-.mediumTitle {
+.medium-title-home {
   width: 650px;
-  margin-bottom: -20px;
 }
 
 // Media Query
 @media (max-width: 765px) {
-  .shortTitle, .mediumTitle {
+  .title-home, .medium-title-home {
     width: auto;
   }
 }

@@ -3,6 +3,12 @@
   color: #fff;
 }
 
+body {
+  max-width: 100vw;
+  min-height: 100vh;
+  background-color: #000;
+}
+
 #header {
   font-size: 12px;
   font-weight: bold;
@@ -26,6 +32,7 @@
 
 #button {
   padding: 15px 35px;
+  border: 2px solid #fff;
 }
 
 section {
@@ -35,7 +42,6 @@ section {
   align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #000;
   background-position: center;
 }
 
@@ -81,36 +87,77 @@ section {
     margin-right: 0px;
   }
 }
-.section-1 {
+.section-home-1 {
   background-image: url("../image/home/01.jpg");
 }
 
-.section-2 {
+.section-home-2 {
   background-image: url("../image/home/02.jpg");
 }
 
-.section-3 {
+.section-home-3 {
   background-image: url("../image/home/03.gif");
 }
 
-.section-4 {
+.section-home-4 {
   background-image: url("../image/home/04.jpg");
 }
 
-.shortTitle {
+.title-home {
   width: 550px;
-  margin-bottom: -20px;
 }
 
-.mediumTitle {
+.medium-title-home {
   width: 650px;
-  margin-bottom: -20px;
 }
 
 @media (max-width: 765px) {
-  .shortTitle, .mediumTitle {
+  .title-home, .medium-title-home {
     width: auto;
   }
+}
+.section-falcon9-1 {
+  background-image: url("../image/falcon9/01.jpg");
+}
+
+.section-falcon9-2 {
+  background-image: url("../image/falcon9/02.jpg");
+}
+
+.section-falcon9-3 #container-overview {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-falcon9-3 .overview-1 {
+  background-image: url("../image/falcon9/03.jpg");
+}
+.section-falcon9-3 .overview-2 {
+  background-image: url("../image/falcon9/04.jpg");
+}
+.section-falcon9-3 .overview-3 {
+  background-image: url("../image/falcon9/05.jpg");
+}
+.section-falcon9-3 .overview-4 {
+  background-image: url("../image/falcon9/06.jpg");
+}
+.section-falcon9-3 .overview-5 {
+  background-image: url("../image/falcon9/07.jpg");
+}
+.section-falcon9-3 .container-teste {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.carousel-image-falcon9 {
+  width: 100%;
+  height: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
