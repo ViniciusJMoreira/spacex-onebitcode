@@ -135,6 +135,11 @@ section {
 .section-falcon9-2 {
   background-image: url("../image/falcon9/02.jpg");
 }
+.section-falcon9-2 .paragraph-description {
+  width: 55%;
+  font-size: 1.4rem;
+  line-height: 50px;
+}
 
 .section-falcon9-3 #container-overview {
   position: relative;
@@ -167,9 +172,13 @@ section {
   transform: translate(-50%, -50%);
 }
 
+.paragraph-size {
+  font-size: 1.1rem;
+  line-height: 35px;
+}
+
 .width-default {
-  width: 50%;
-  font-size: 20px;
+  width: 55%;
 }
 
 .section-falcon9-4 {
@@ -182,8 +191,13 @@ section {
 }
 
 @media (max-width: 1024px) {
+  .section-falcon9-2 .paragraph-description {
+    width: 100%;
+    text-align: justify;
+  }
   .width-default {
     width: 100%;
+    text-align: justify;
   }
 }
 

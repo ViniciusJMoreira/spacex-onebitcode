@@ -17,6 +17,12 @@
 }
 .section-falcon9-2 {
   background-image: url("../image/falcon9/02.jpg");
+
+  .paragraph-description {
+    width: 55%;
+    font-size: 1.4rem;
+    line-height: 50px;
+  }
 }
 .section-falcon9-3 {
   #container-overview {
@@ -50,10 +56,16 @@
     transform: translate(-50%, -50%);
   }
 }
-.width-default {
-  width: 50%;
-  font-size: 20px;
+
+.paragraph-size {
+  font-size: 1.1rem;
+  line-height: 35px;
 }
+
+.width-default {
+  width: 55%;
+}
+
 .section-falcon9-4 {
   background-image: url("../image/falcon9/08.jpg");
 }
@@ -64,7 +76,14 @@
 
 //Media Query
 @media (max-width: 1024px) {
+  .section-falcon9-2 {
+    .paragraph-description {
+      width: 100%;
+      text-align: justify;
+    }
+  } 
   .width-default {
     width: 100%;
+    text-align: justify;
   }
 }
