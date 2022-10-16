@@ -196,11 +196,9 @@ section {
 @media (max-width: 1024px) {
   .section-falcon9-2 .paragraph-description {
     width: 100%;
-    text-align: justify;
   }
   .width-default {
     width: 100%;
-    text-align: justify;
   }
 }
 
