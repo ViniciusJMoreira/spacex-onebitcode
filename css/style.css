@@ -194,11 +194,22 @@ section {
 }
 
 @media (max-width: 1024px) {
+  .parameters .parameters-title {
+    font-size: 4.5rem;
+  }
+  .parameters .parameters-subtitle {
+    font-size: 1.1rem;
+  }
   .section-falcon9-2 .paragraph-description {
     width: 100%;
   }
   .width-default {
     width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .section-falcon9-2 .paragraph-description {
+    line-height: 40px;
   }
 }
 
