@@ -50,16 +50,14 @@ section {
 }
 
 #footer {
-  background-color: #000;
-  height: 15vh;
-  font-size: 12px;
-  font-weight: bold;
+  height: 70vh;
+  max-width: 100vw;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
 }
 #footer a {
+  font-size: 12px;
   color: #fff;
   transition: 500ms linear;
 }
@@ -67,6 +65,7 @@ section {
   color: #b9b9b9;
 }
 #footer .copy {
+  font-size: 12px;
   color: #FF0043;
 }
 
@@ -81,7 +80,6 @@ section {
   }
   #footer {
     font-size: 10px;
-    padding: 10px;
   }
 }
 @media (max-width: 350px) {

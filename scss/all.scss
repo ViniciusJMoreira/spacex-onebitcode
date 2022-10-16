@@ -51,17 +51,18 @@ section {
 }
 
 #footer {
-  background-color: #000;
-  height: 15vh;
-  font-size: 12px;
-  font-weight: bold;
-
+  height: 70vh;
+  max-width: 100vw;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+
+  .links {
+
+  }
 
   a {
+    font-size: 12px;
     color: #fff;
     transition: 500ms linear;
     &:hover {
@@ -70,6 +71,7 @@ section {
   }
 
   .copy {
+    font-size: 12px;
     color: $color-copy;
   }
 }
@@ -91,7 +93,6 @@ section {
   }
   #footer {
     font-size: 10px;
-    padding: 10px;
   }
 }
 
