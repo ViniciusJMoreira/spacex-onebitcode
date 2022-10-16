@@ -121,7 +121,7 @@
 @media (max-width: 366px) {
   .section-falcon9-1 {
     .title-falcon9 {
-      font-size: 3.8rem;
+      font-size: 4rem;
     }
     .subtitle-falcon9 {
       font-size: 1rem;
@@ -142,5 +142,12 @@
   }
   .table-size {
     font-size: 1rem;
+  }
+}
+@media (max-width: 326px) {
+  .section-falcon9-1 {
+    .title-falcon9 {
+      font-size: 3.5rem;
+    }
   }
 }
