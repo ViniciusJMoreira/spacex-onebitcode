@@ -78,12 +78,11 @@
 @media (max-width: 1024px) {
   .parameters {
     .parameters-title {
-      font-size: 4.5rem;
+      font-size: 5rem;
     }
     .parameters-subtitle {
     font-size: 1.1rem;
     }
-
   }
   .section-falcon9-2 {
     .paragraph-description {
@@ -95,14 +94,53 @@
   }
 }
 
-@media (max-width: 769px) {
-  
-}
-
-@media (max-width: 500px) {
+@media (max-width: 450px) {
+  .section-falcon9-1 {
+    .title-falcon9 {
+      font-size: 4.5rem;
+    }
+    .subtitle-falcon9 {
+      font-size: 1.2rem;
+    }
+  }
+  .parameters {
+    .parameters-title {
+      font-size: 4.2rem;
+    }
+    .parameters-subtitle {
+    font-size: 1rem;
+    }
+  }
   .section-falcon9-2 {
     .paragraph-description {
+      font-size: 1.2rem;
       line-height: 40px;
     }
+  }
+}
+@media (max-width: 366px) {
+  .section-falcon9-1 {
+    .title-falcon9 {
+      font-size: 3.8rem;
+    }
+    .subtitle-falcon9 {
+      font-size: 1rem;
+    }
+  }
+  .parameters {
+    .parameters-title {
+      font-size: 3.5rem;
+    }
+  } 
+  .section-falcon9-2 {
+    .paragraph-description {
+      font-size: 1.1rem;
+    }
+  }
+  .paragraph-size {
+    line-height: 30px;
+  }
+  .table-size {
+    font-size: 1rem;
   }
 }
