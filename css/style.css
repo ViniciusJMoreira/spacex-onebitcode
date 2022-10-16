@@ -136,7 +136,7 @@ section {
 .section-falcon9-2 {
   background-image: url("../image/falcon9/02.jpg");
 }
-.section-falcon9-2 .paragraph-description {
+.section-falcon9-2 .paragraph-description-falcon9 {
   width: 55%;
   font-size: 1.4rem;
   line-height: 50px;
@@ -198,7 +198,7 @@ section {
   .parameters .parameters-subtitle {
     font-size: 1.1rem;
   }
-  .section-falcon9-2 .paragraph-description {
+  .section-falcon9-2 .paragraph-description-falcon9 {
     width: 100%;
   }
   .width-default {
@@ -218,7 +218,7 @@ section {
   .parameters .parameters-subtitle {
     font-size: 1rem;
   }
-  .section-falcon9-2 .paragraph-description {
+  .section-falcon9-2 .paragraph-description-falcon9 {
     font-size: 1.2rem;
     line-height: 40px;
   }
@@ -233,7 +233,7 @@ section {
   .parameters .parameters-title {
     font-size: 3.5rem;
   }
-  .section-falcon9-2 .paragraph-description {
+  .section-falcon9-2 .paragraph-description-falcon9 {
     font-size: 1.1rem;
   }
   .paragraph-size {
@@ -246,6 +246,74 @@ section {
 @media (max-width: 326px) {
   .section-falcon9-1 .title-falcon9 {
     font-size: 3.5rem;
+  }
+}
+.section-human-flight-1 {
+  background-image: url("../image/human-flight/01.jpg");
+}
+
+.section-human-flight-2 {
+  background-image: url("../image/human-flight/02.jpg");
+}
+
+.section-human-flight-3 {
+  background-image: url("../image/human-flight/03.jpg");
+}
+
+.section-human-flight-4 {
+  background-image: url("../image/human-flight/04.jpg");
+}
+
+.section-human-flight-5 {
+  background-image: url("../image/human-flight/05.jpg");
+}
+
+.section-human-flight-1 .title-human-flight {
+  font-size: 7rem;
+}
+.section-human-flight-1 .subtitle-human-flight {
+  margin-top: 20px;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.paragraph-description-human-flight {
+  width: 800px;
+  margin: auto;
+  color: #d8d8d8;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.container-human-flight-right {
+  width: 45%;
+  justify-self: end;
+}
+
+.container-human-flight-left {
+  width: 45%;
+  margin-left: 5%;
+}
+
+.title-section {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.subtitle-section {
+  font-weight: 300;
+  margin-bottom: 40px;
+  margin-left: 10px;
+}
+
+@media (max-width: 1020px) {
+  .paragraph-description-human-flight {
+    width: auto;
+  }
+}
+@media (max-width: 768px) {
+  .title-section {
+    font-size: 1rem;
   }
 }
 
