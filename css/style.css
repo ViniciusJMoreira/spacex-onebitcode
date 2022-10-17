@@ -317,30 +317,25 @@ section {
   .paragraph-description-human-flight {
     width: auto;
   }
+  .title-section {
+    font-size: 2.8rem;
+  }
 }
 @media (max-width: 992px) {
-  .title-section {
-    font-size: 2.5rem;
-  }
-  .subtitle-section {
-    width: 250px;
-  }
-}
-@media (max-width: 850px) {
-  .title-section {
-    font-size: 2.3rem;
-  }
-}
-@media (max-width: 767px) {
-  .section-human-flight-1 .title-human-flight {
-    font-size: 5rem;
-  }
   .container-human-flight-right {
     width: auto;
     margin-right: 30px;
   }
   .container-human-flight-left {
     width: auto;
+  }
+  .subtitle-section {
+    width: 250px;
+  }
+}
+@media (max-width: 767px) {
+  .section-human-flight-1 .title-human-flight {
+    font-size: 5rem;
   }
 }
 @media (max-width: 550px) {
