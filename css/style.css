@@ -305,6 +305,10 @@ section {
   margin-bottom: 40px;
 }
 
+.word-break {
+  display: inline-block;
+}
+
 @media (max-width: 1200px) {
   .title-section {
     font-size: 3rem;
@@ -317,30 +321,46 @@ section {
   .paragraph-description-human-flight {
     width: auto;
   }
-  .title-section {
-    font-size: 2.8rem;
-  }
 }
 @media (max-width: 992px) {
   .container-human-flight-right {
     width: auto;
-    margin-right: 30px;
-  }
-  .container-human-flight-left {
-    width: auto;
+    margin-right: 10%;
   }
   .subtitle-section {
     width: 250px;
+  }
+  .word-break {
+    display: block;
   }
 }
 @media (max-width: 767px) {
   .section-human-flight-1 .title-human-flight {
     font-size: 5rem;
   }
+  .container-human-flight-left {
+    width: auto;
+  }
+}
+@media (max-width: 600px) {
+  .container-human-flight-right {
+    margin-right: 2%;
+  }
 }
 @media (max-width: 550px) {
   .section-human-flight-1 .title-human-flight {
     font-size: 4rem;
+  }
+  .section-human-flight-1 .subtitle-human-flight {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 420px) {
+  .section-human-flight-1 .title-human-flight {
+    font-size: 3rem;
+  }
+  .section-human-flight-1 .subtitle-human-flight {
+    font-size: 1.3rem;
   }
 }
 
