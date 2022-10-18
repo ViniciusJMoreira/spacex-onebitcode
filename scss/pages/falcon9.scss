@@ -117,6 +117,9 @@
       line-height: 40px;
     }
   }
+  .table-size {
+    font-size: .9rem;
+  }
 }
 @media (max-width: 366px) {
   .section-falcon9-1 {
@@ -139,9 +142,6 @@
   }
   .paragraph-size {
     line-height: 30px;
-  }
-  .table-size {
-    font-size: 1rem;
   }
 }
 @media (max-width: 326px) {

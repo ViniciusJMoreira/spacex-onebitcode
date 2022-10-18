@@ -4,6 +4,7 @@
 
 a {
   text-decoration: none;
+  color: $link-hover;
 }
 
 body {
@@ -51,24 +52,26 @@ section {
 }
 
 #footer {
-  height: 70vh;
+  min-height: 70vh;
   max-width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 
-  a {
-    font-size: 12px;
-    color: #fff;
-    transition: 500ms linear;
+  .paragraph-footer {
+    font-size: 1.2rem;
+  }
+
+  .icon {
+    font-size: 30px;
+    transition: 300ms linear;
     &:hover {
       color: $link-hover;
     }
   }
-
   .copy {
-    font-size: 12px;
-    color: $color-copy;
+    font-size: 13px;
+    color: $link-hover;
   }
 }
 
@@ -77,6 +80,11 @@ section {
   #header {
     .logo-onebitcode {
       width: 200px;
+    }
+  }
+  #footer {
+    .paragraph-footer {
+      font-size: 1rem;
     }
   }
 }
