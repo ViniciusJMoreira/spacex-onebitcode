@@ -67,7 +67,7 @@ section {
   }
 
   .icon {
-    font-size: 30px;
+    font-size: 25px;
     transition: 300ms linear;
     &:hover {
       color: $link-hover;
@@ -104,9 +104,6 @@ section {
 
     .paragraph-footer {
       font-size: .9rem;
-    }
-    .icon {
-      font-size: 25px;
     }
   }
 }
