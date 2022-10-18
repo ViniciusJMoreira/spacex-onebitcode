@@ -365,6 +365,9 @@ section {
   .title-section {
     font-size: 2.5rem;
   }
+  .subtitle-section {
+    width: 230px;
+  }
 }
 @media (max-width: 420px) {
   .section-human-flight-1 .title-human-flight {
