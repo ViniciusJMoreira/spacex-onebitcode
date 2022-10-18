@@ -69,12 +69,13 @@
       font-size: 6rem;
     }
   }
-  .paragraph-description-human-flight {
-    width: auto;
-  }
 }
 
 @media (max-width: 992px) {
+  .paragraph-description-human-flight {
+    width: auto;
+    font-size: 1.2rem;
+  }
   .container-human-flight-right {
     width: auto;
     margin-right: 10%;
@@ -116,6 +117,9 @@
     .subtitle-human-flight {
       font-size: 1.5rem;
     }
+  }
+  .paragraph-description-human-flight {
+    font-size: 1.1rem;
   }
 }
 
