@@ -83,6 +83,9 @@
   .subtitle-section {
     width: 250px;
   }
+  .width-moon {
+    width: 220px !important; 
+  }
   .word-break {
     display: block;
   }
@@ -121,6 +124,13 @@
   .paragraph-description-human-flight {
     font-size: 1.1rem;
   }
+  .title-section {
+    font-size: 2.5rem;
+  }
+  .subtitle-section {
+    width: 220px;
+    font-size: .9rem;
+  }
 }
 
 @media (max-width: 420px) {
@@ -130,7 +140,15 @@
       font-size: 3rem;
     }
     .subtitle-human-flight {
-      font-size: 1.3rem;
+      font-size: 1.25rem;
+    }
+  }
+  @media (max-width: 320px) {
+    .section-human-flight-1 {
+
+      .title-human-flight {
+        font-size: 2.5rem;
+      }
     }
   }
 }
