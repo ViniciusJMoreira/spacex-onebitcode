@@ -51,6 +51,7 @@
 .subtitle-section {
   font-weight: 300;
   margin-bottom: 40px;
+  line-break: none;
 }
 .word-break {
   display: inline-block;
@@ -84,7 +85,7 @@
     width: 250px;
   }
   #width-moon {
-    width: 220px !important; 
+    width: 220px; 
   }
   .word-break {
     display: block;
@@ -127,10 +128,6 @@
   .title-section {
     font-size: 2.5rem;
   }
-  .subtitle-section {
-    width: 220px;
-    font-size: .9rem;
-  }
 }
 
 @media (max-width: 420px) {
@@ -143,6 +140,7 @@
       font-size: 1.25rem;
     }
   }
+
   @media (max-width: 320px) {
     .section-human-flight-1 {
 

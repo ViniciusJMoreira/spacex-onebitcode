@@ -303,6 +303,7 @@ section {
 .subtitle-section {
   font-weight: 300;
   margin-bottom: 40px;
+  line-break: none;
 }
 
 .word-break {
@@ -332,7 +333,7 @@ section {
     width: 250px;
   }
   #width-moon {
-    width: 220px !important;
+    width: 220px;
   }
   .word-break {
     display: block;
@@ -363,10 +364,6 @@ section {
   }
   .title-section {
     font-size: 2.5rem;
-  }
-  .subtitle-section {
-    width: 220px;
-    font-size: 0.9rem;
   }
 }
 @media (max-width: 420px) {
