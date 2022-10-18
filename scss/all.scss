@@ -5,6 +5,10 @@
 a {
   text-decoration: none;
   color: $link-hover;
+  transition: 300ms linear;
+  &:hover {
+    color: #fff;
+  }
 }
 
 body {
@@ -97,6 +101,10 @@ section {
   }
   #footer {
     font-size: 10px;
+
+    .paragraph-footer {
+      font-size: .9rem;
+    }
   }
 }
 

@@ -6,6 +6,10 @@
 a {
   text-decoration: none;
   color: #b9b9b9;
+  transition: 300ms linear;
+}
+a:hover {
+  color: #fff;
 }
 
 body {
@@ -86,6 +90,9 @@ section {
   }
   #footer {
     font-size: 10px;
+  }
+  #footer .paragraph-footer {
+    font-size: 0.9rem;
   }
 }
 @media (max-width: 350px) {
