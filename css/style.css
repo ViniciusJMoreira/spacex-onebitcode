@@ -94,6 +94,9 @@ section {
   #footer .paragraph-footer {
     font-size: 0.9rem;
   }
+  #footer .icon {
+    font-size: 25px;
+  }
 }
 @media (max-width: 350px) {
   #header .logo-onebitcode {
